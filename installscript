@@ -56,38 +56,9 @@ echo 'Install node'
 echo '-----------'
 brew install node@12
 
-echo 'Install pkg-config'
-echo '------------------'
-brew install pkg-config
-
 echo 'Install wget'
 echo '------------'
 brew install wget --overwrite
-
-echo 'Install httpie'
-echo '--------------'
-brew install httpie
-
-echo 'Install ncdu'
-echo '------------'
-brew install ncdu
-
-echo 'Install hub'
-echo '-----------'
-brew install hub
-
-echo 'Install ack'
-echo '-----------'
-brew install ack
-
-echo 'Install doctl'
-echo '-------------'
-brew install doctl
-
-echo 'Install brew-cask'
-echo '-----------------'
-brew tap caskroom/cask
-brew install brew-cask
 
 echo 'Install zsh-autosuggestions'
 echo '---------------------------'
